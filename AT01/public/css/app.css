@@ -1,0 +1,19 @@
+h1{
+    color:burlywood;
+}
+h3{
+    color:yellow;
+}
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img%20(39).jpg")no-repeat center center;
+    background-size: cover;
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+/*aqui vai todos o CSS
+
+basta adicionar <link rel="stylesheet" href="{{ asset('css/app.css') }}"> na pagina*/
