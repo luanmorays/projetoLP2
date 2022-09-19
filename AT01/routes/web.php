@@ -14,7 +14,7 @@ Route::get('/produtos', [ProdutosController::class, 'index']);
 Route::post('/produtos', [ProdutosController::class, 'index']);
 
 /*   ou
-Route::get('/','home');  */
+Route::get('/','homee');  */
 
 Route::get('/empresa', function () {
     return view('empresa');
